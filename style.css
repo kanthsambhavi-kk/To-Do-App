@@ -51,6 +51,19 @@ h1 {
     color: #222;
 }
 
+.quote {
+    text-align: center;
+
+    color: #777;
+
+    font-size: 15px;
+
+    margin-top: -20px;
+
+    margin-bottom: 25px;
+
+    font-style: italic;
+}
 
 /* ---------- INPUT AREA ---------- */
 
@@ -215,4 +228,78 @@ h1 {
     #addButton {
         width: 100%;
     }
+}
+
+.decorations {
+    position: fixed;
+
+    inset: 0;
+
+    pointer-events: none;
+
+    overflow: hidden;
+
+    z-index: 0;
+}
+
+.decorations span {
+    position: absolute;
+
+    font-size: 35px;
+
+    opacity: 0.25;
+}
+
+.decorations span:nth-child(1) {
+    top: 10%;
+    left: 10%;
+}
+
+.decorations span:nth-child(2) {
+    top: 20%;
+    right: 12%;
+}
+
+.decorations span:nth-child(3) {
+    bottom: 20%;
+    left: 15%;
+}
+
+.decorations span:nth-child(4) {
+    bottom: 10%;
+    right: 10%;
+}
+
+.decorations span:nth-child(5) {
+    top: 45%;
+    left: 5%;
+}
+
+.decorations span:nth-child(6) {
+    top: 65%;
+    right: 8%;
+}
+
+.decorations span:nth-child(7) {
+    top: 8%;
+    right: 35%;
+}
+
+.container {
+    position: relative;
+
+    z-index: 1;
+}
+#message {
+    text-align: center;
+
+    margin-bottom: 15px;
+
+    font-size: 15px;
+
+    font-weight: bold;
+
+    color: #667eea;
+
+    min-height: 20px;
 }
